@@ -43,7 +43,7 @@ class BalanceCtrl {
             this.showNotAssetMessage = true;
         }.bind(this);
 
-        $timeout(wait, 600);
+        $timeout(wait, 6000);
 
     };
         /**
