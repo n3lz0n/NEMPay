@@ -29,11 +29,10 @@ class AccountCtrl {
 
 
          //menu
-        var template = '<ion-popover-view> <ion-content><div class="list" ng-click="popover.hide();"><a ui-sref="app.balance" class="item">Balance</a><a ui-sref="app.transfer" class="item">Transfer</a><a ui-sref="app.transactions" class="item">Transactions</a><a ui-sref="app.account" class="item">Account</a></div></ion-content></ion-popover-view>';
+        var template = '<ion-popover-view> <ion-content><div class="list"><a ui-sref="app.balance" class="item">Balance</a><a ui-sref="app.transfer" class="item">Transfer</a><a ui-sref="app.transactions" class="item">Transactions</a><a ui-sref="app.account" class="item">Account</a></div></ion-content></ion-popover-view>';
 
         this.popover = $ionicPopover.fromTemplate(template, {
-            scope: $scope,
-            popover: this.popover
+            scope: $scope
         });
 
         // Default account properties

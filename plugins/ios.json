@@ -7,32 +7,32 @@
         "files": {}
     },
     "installed_plugins": {
-        "cordova-plugin-inappbrowser": {
-            "PACKAGE_NAME": "com.atraura.nanowalletmobile"
-        },
-        "cordova-plugin-device": {
-            "PACKAGE_NAME": "com.atraura.nanowalletmobile"
+        "com.verso.cordova.clipboard": {
+            "PACKAGE_NAME": "com.atraura.onenation"
         },
         "cordova-plugin-console": {
-            "PACKAGE_NAME": "com.atraura.nanowalletmobile"
+            "PACKAGE_NAME": "com.atraura.onenation"
         },
-        "cordova-plugin-whitelist": {
-            "PACKAGE_NAME": "com.atraura.nanowalletmobile"
+        "cordova-plugin-device": {
+            "PACKAGE_NAME": "com.atraura.onenation"
+        },
+        "cordova-plugin-inappbrowser": {
+            "PACKAGE_NAME": "com.atraura.onenation"
         },
         "cordova-plugin-splashscreen": {
-            "PACKAGE_NAME": "com.atraura.nanowalletmobile"
+            "PACKAGE_NAME": "com.atraura.onenation"
         },
         "cordova-plugin-statusbar": {
-            "PACKAGE_NAME": "com.atraura.nanowalletmobile"
+            "PACKAGE_NAME": "com.atraura.onenation"
         },
-        "ionic-plugin-keyboard": {
-            "PACKAGE_NAME": "com.atraura.nanowalletmobile"
-        },
-        "com.verso.cordova.clipboard": {
-            "PACKAGE_NAME": "com.atraura.nanowalletmobile"
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.atraura.onenation"
         },
         "cordova-plugin-x-socialsharing": {
-            "PACKAGE_NAME": "com.atraura.nanowalletmobile"
+            "PACKAGE_NAME": "com.atraura.onenation"
+        },
+        "ionic-plugin-keyboard": {
+            "PACKAGE_NAME": "com.atraura.onenation"
         }
     },
     "dependent_plugins": {}
