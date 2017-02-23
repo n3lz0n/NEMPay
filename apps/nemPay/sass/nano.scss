@@ -68,7 +68,7 @@ h2{
 }
 
 .bar-nem.long{
-  height: 150px;
+  height: 150px !important;
 }
 
 .buttons-left button{
@@ -78,7 +78,7 @@ h2{
 /* SPACING */
 
 .has-header.initial{
-  top:150px;
+  top:150px !important;
 }
 
 .page-top-gap{

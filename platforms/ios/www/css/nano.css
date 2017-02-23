@@ -24,37 +24,37 @@ h2 {
   height: 210px; }
 
 .nem-color {
-  color: #3e65ac; }
+  color: #FFC107; }
 
 .item-select select {
   max-width: 100% !important;
   padding: 0px 48px 0px 0px !important; }
 
 .button.button-nem {
-  background-color: #3e65ac;
+  background-color: #FFC107;
   color: #fff; }
 
 .alert {
   padding: 15px; }
 
 .highlight-nem {
-  background-color: #3e65ac; }
+  background-color: #FFC107; }
 
 .bar-nem {
-  border-color: #273238;
-  background-color: #273238;
+  border-color: #4E342E;
+  background-color: #4E342E;
   background-image: linear-gradient(0deg, #273238, #273238 50%, transparent 50%);
   color: #fff; }
 
 .bar-nem.long {
-  height: 150px; }
+  height: 150px !important; }
 
 .buttons-left button {
   top: 5px; }
 
 /* SPACING */
 .has-header.initial {
-  top: 150px; }
+  top: 150px !important; }
 
 .page-top-gap {
   margin-top: 20px; }
