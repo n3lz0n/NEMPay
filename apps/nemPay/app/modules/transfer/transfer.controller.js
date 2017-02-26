@@ -243,6 +243,11 @@ class TransferCtrl {
         if(this.showAlias){
             alias = this.formData.rawRecipient;
         }
+
+        if(this.formData.message == '' || !this.formData.message){
+            this.formData.message = '  ';
+        }
+
         this._state.go('app.transferConfirm', 
             {to: this.formData.recipient, 
             alias: alias,
