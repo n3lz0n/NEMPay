@@ -19,17 +19,25 @@
       </div>
       <div class="small-padding">
          <button class="button button-block button-light waves-effect waves-button waves-light border-radius-none"
-            type="submit" ng-click="$ctrl.login($ctrl.selectedWallet)" ng-disabled="!$ctrl.selectedWallet">
-         {{ 'LOGIN_LOGIN_BUTTON' | translate }}
+                 type="submit" ng-click="$ctrl.login($ctrl.selectedWallet)" ng-disabled="!$ctrl.selectedWallet">
+            {{ 'LOGIN_LOGIN_BUTTON' | translate }}
          </button>
       </div>
 
       <div class="padding">
-        <div class="form-group">
-         <button class="fileUpload btn-import">
-            <span>{{ 'LOGIN_IMPORT_BUTTON' | translate }}</span>
-            <input type="file" accept="*/*" class="upload" multiple='multiple' read-wallet-files="$ctrl.loadWallet($fileContent, $isNCC)" />
-         </button>
+         <div class="form-group">
+            <button class="fileUpload btn-import">
+               <span>{{ 'LOGIN_IMPORT_BUTTON' | translate }}</span>
+               <input type="file" accept="*/*" class="upload" multiple='multiple' read-wallet-files="$ctrl.loadWallet($fileContent, $isNCC)" />
+            </button>
+         </div>
+      </div>
+
+      <div class="padding">
+         <div class="form-group">
+            <a ui-sref="app.register">
+               <span>SIGN UP</span>
+            </a>
          </div>
       </div>
    </div>

@@ -47,14 +47,14 @@ h2 {
   color: #fff; }
 
 .bar-nem.long {
-  height: 150px; }
+  height: 150px !important; }
 
 .buttons-left button {
   top: 5px; }
 
 /* SPACING */
 .has-header.initial {
-  top: 150px; }
+  top: 150px !important; }
 
 .page-top-gap {
   margin-top: 20px; }
